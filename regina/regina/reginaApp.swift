@@ -11,7 +11,12 @@ import SwiftUI
 struct reginaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack{
+                Color.blue
+                    .edgesIgnoringSafeArea(.all)
+                
+                GlassBackGround()
+            }
         }
     }
 }

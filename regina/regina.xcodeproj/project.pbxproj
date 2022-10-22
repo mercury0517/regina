@@ -11,6 +11,7 @@
 		602FA0A02903E4C500E48DFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602FA09F2903E4C500E48DFD /* ContentView.swift */; };
 		602FA0A22903E4C600E48DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602FA0A12903E4C600E48DFD /* Assets.xcassets */; };
 		602FA0A52903E4C600E48DFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602FA0A42903E4C600E48DFD /* Preview Assets.xcassets */; };
+		6031127C2903E7BE00BE05D1 /* GlassBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031127B2903E7BE00BE05D1 /* GlassBackGround.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		602FA09F2903E4C500E48DFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		602FA0A12903E4C600E48DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		602FA0A42903E4C600E48DFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6031127B2903E7BE00BE05D1 /* GlassBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackGround.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,11 @@
 		602FA09C2903E4C500E48DFD /* regina */ = {
 			isa = PBXGroup;
 			children = (
-				602FA09D2903E4C500E48DFD /* reginaApp.swift */,
-				602FA09F2903E4C500E48DFD /* ContentView.swift */,
 				602FA0A12903E4C600E48DFD /* Assets.xcassets */,
+				602FA09F2903E4C500E48DFD /* ContentView.swift */,
+				6031127B2903E7BE00BE05D1 /* GlassBackGround.swift */,
 				602FA0A32903E4C600E48DFD /* Preview Content */,
+				602FA09D2903E4C500E48DFD /* reginaApp.swift */,
 			);
 			path = regina;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				602FA0A02903E4C500E48DFD /* ContentView.swift in Sources */,
 				602FA09E2903E4C500E48DFD /* reginaApp.swift in Sources */,
+				6031127C2903E7BE00BE05D1 /* GlassBackGround.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
